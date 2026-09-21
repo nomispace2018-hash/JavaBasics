@@ -1,0 +1,24 @@
+public class Presentation{
+	public static void main(String [] args) {
+		
+		String name;
+		name = "John ";
+	
+		String surname;
+		surname = "Doe";
+	
+		int age;
+		age = 33;
+		
+		String address;
+		address = "123 First Avenue, London, WC1 6HB";
+		
+		double height;
+		height = 1.82;
+		
+		System.out.println("Hello! My name is " + name + surname + ".");
+		System.out.println("I am " + age + " y/o.");
+		System.out.println("My address is " + address + ".");
+		System.out.println("My height is " + height + " meters.");
+	}
+}
