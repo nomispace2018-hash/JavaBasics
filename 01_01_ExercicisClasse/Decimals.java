@@ -1,5 +1,5 @@
 public class Decimals {
-	public static void main(String [] args) {
+	public static void main(String[] args) {
 		
 		//Redondear a 0 decimales:
 		double x = 12.345679;
