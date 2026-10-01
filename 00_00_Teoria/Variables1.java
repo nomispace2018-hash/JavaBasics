@@ -4,8 +4,8 @@ public class Variables1 {
 		
 		//TIPUS DE VARIABLES
 		//1. Bàsics - int, double, char, String
-			/* Numèrics enters (byte (emmagatzema max 8 bits/dades), short (emmagatzema max 16 bits/dades), int (emmagatzema max 32 bits/dades) , long (emmagtzema max 64 bits/dades)
-			   Numèrics reals (float, double) */
+			/* Numèrics enters: byte (emmagatzema max 8 bits/dades), short (max 16 bits/dades), int (32 bits/dades) , long (64 bits/dades)
+			   Numèrics reals: float (32 bits), double(64 bits) */
 		
 		int numAlumnes = 33;
 		int numAules = 2;
@@ -29,7 +29,7 @@ public class Variables1 {
 	
 		
 		//2. Mostrar contingut per pantalla
-		//3. Operacions +, -, *, /, %
+		//3. Operadors +, -, *, /, % (residu)
 		int esParell = numAlumnes % 2;
 		System.out.println("Es parell: " + esParell);
 		
