@@ -43,5 +43,10 @@ public class TipusDeDades {
 		caracter = 'H'; //almacena la letra H como valor de la varibale caracter
 		System.out.println(caracter); //imprime por pantalla el valor de la variable "caracter"
 		
+				// --- Variables con un valor fijo (no puee cambiar luego)
+		final int valor = 3;
+		System.our.println(valor);
+		valor = 4; // Aquí dara un error y dirá la terminal que no podremos cambiar el valor de la variable.
+		
 	}
 }
