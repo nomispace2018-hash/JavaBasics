@@ -3,7 +3,7 @@ public class ExpressionsMath {
 		//Hi ha diversos operadors: +, -, /, *, % (residu de divisió)
 		
 		//EXEMPLE D'EXPRESSIÓ BÀSICA
-		int expressio = 2* 12 + 3;
+		int expressio = 2 * 12 + 3;
 		
 		System.out.println(expressio);
 		int x = 10;

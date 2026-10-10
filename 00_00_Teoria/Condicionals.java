@@ -14,7 +14,7 @@ public class Condicionals{
 		}
 		
 		// Condicional que mostrara un texto si no se cumple la condicion de ser menor de 18 
-		else if ( edat > 18 ) {
+		else if ( edat >= 18 ) {
 				System.out.println("Ets major d'edat, a treballar.");
 				
 		}
