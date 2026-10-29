@@ -19,14 +19,16 @@ public class MinMax {
 			max = num; //1
 			min = num; //1
 			
-			while (true) {
+			boolean continuar = true;
+			
+			while (continuar) {
 				System.out.println("Enter a positive double (negative number to finish): ");
 				num = scanner.nextDouble(); //5
 				
 				if (num < 0) { //Si el numero que han introducido es inferior a 0 (negativo)
 					System.out.printf("MINIM = %.1f", min); // El maximo es el mismo número
 					System.out.printf("%nMAXIM = %.1f", max); // El mínimo es el mismo número
-					break;
+					continuar = false;
 				}
 				
 				//Si el numero que han introducido NO es negativo

@@ -18,7 +18,9 @@ public class BiggestNumber {
 		} else {
 			max = num;
 			
-			while (true) {
+			boolean continuar = true;
+			
+			while (continuar) {
 				num = scanner.nextInt();
 				
 				if (num > max) {
@@ -27,7 +29,7 @@ public class BiggestNumber {
 				
 				if (num < 0) {
 					System.out.println("The biggest number is: " + max);
-					break;
+					continuar = false;
 				}
 			}
 		}

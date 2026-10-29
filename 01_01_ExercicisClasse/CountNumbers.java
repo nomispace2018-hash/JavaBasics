@@ -15,36 +15,16 @@ public class CountNumbers {
             //Comprovem si el nombre està dins del rang (0-9)
             if (num >= 0 && num <= 9) {
                 switch (num) {
-                    case 0:
-                        count0++;
-                        break;
-                    case 1:
-                        count1++;
-                        break;
-                    case 2:
-                        count2++;
-                        break;
-                    case 3:
-                        count3++;
-                        break;
-                    case 4:
-                        count4++;
-                        break;
-                    case 5:
-                        count5++;
-                        break;
-                    case 6:
-                        count6++;
-                        break;
-                    case 7:
-                        count7++;
-                        break;
-                    case 8:
-                        count8++;
-                        break;
-                    case 9:
-                        count9++;
-                        break;
+					case 0 -> count0++;
+                    case 1 -> count1++;
+                    case 2 -> count2++;
+                    case 3 -> count3++;
+                    case 4 -> count4++;
+                    case 5 -> count5++;
+                    case 6 -> count6++;
+                    case 7 -> count7++;
+                    case 8 -> count8++;
+                    case 9 -> count9++;
                 }
             } else {
                 //Si no esta entre 0 i 9, i tampoc és -1 mostrem el missatge d'error
