@@ -11,7 +11,7 @@ public class TravelTime {
 		System.out.println("Number of transfers:");
 		int transfers = scanner.nextInt();
 		
-		final int timeStops = 3;
+		final int+ timeStops = 3;
 		final int timeTransfers = 6;
 		
 		int totalTrajecte = (stops * timeStops) + (transfers * timeTransfers);
