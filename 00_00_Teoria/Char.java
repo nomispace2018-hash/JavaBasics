@@ -31,7 +31,7 @@ public class CountLetter {
 			for (int i = 0; i < paraula.length(); i++) {
 				mirar = paraula.charAt(i); //Guardamos la posicion de cada letra de cada vuelta en la palabra
 								
-				if (Character.toLowerCase(mirar) == Character.toLowerCase(lletra)) { //Si el char (transformado a string) es igual a la letra
+				if (Character.toLowerCase(mirar) == Character.toLowerCase(lletra)) { //Si la letra analizada es igual a la letra original
 					repeticiones++;
 				}
 			}

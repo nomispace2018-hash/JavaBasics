@@ -68,6 +68,26 @@ public class SwitchCaseTernari {
 			case "dissabte" -> 6;
 			case "diumenge" -> 7;
 			default -> 0;
+		}; //SE CIERRA ASÍ, SIN BREAK
+		
+		System.out.println("Número de dia: " + nDia2);
+		System.out.println("---");
+		
+		//Podemos usar el switch con flechas de esta forma también
+		int nDia2 = 0;
+		
+		switch (dia) {
+			case "dilluns" -> {
+				nDia = 1;
+				System.out.println("Se pueden abrir parentesis en los switch con flechas, jaja");
+			}
+			case "dimarts" -> 2;
+			case "dimecres" -> 3;
+			case "dijous" -> 4;
+			case "divendres" -> 5;
+			case "dissabte" -> 6;
+			case "diumenge" -> 7;
+			default -> 0;
 		};
 		System.out.println("Número de dia: " + nDia2);
 		System.out.println("---");
