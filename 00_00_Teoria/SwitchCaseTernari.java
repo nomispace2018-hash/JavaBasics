@@ -96,6 +96,12 @@ public class SwitchCaseTernari {
 		String tipusDia = (nDia>=1 && nDia<=5)?
 			"laborable": "festiu"; //Si se cumple la condición de que el día está entre 1 y 5, es "laborable", si no, es "festivo".
 		System.out.println("Avui és: " + tipusDia);
+
+		//O hacerlo asi:
+		String tipusDia = (nDia>=1 && nDia<=5)?
+			"laborable": 
+			"festiu"; //Si se cumple la condición de que el día está entre 1 y 5, es "laborable", si no, es "festivo".
+		System.out.println("Avui és: " + tipusDia);
 		
 		/*Así se veria con una condición tipo "if else":
 		---
