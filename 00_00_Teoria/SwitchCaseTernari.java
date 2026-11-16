@@ -9,7 +9,7 @@ public class SwitchCaseTernari {
 		int nDia = scanner.nextInt();
 		scanner.nextLine();
 		
-		//Otra forma de utilizar un "if" es con un "switch".
+		//Otra forma de utilizar un "if" es con un "switch". Estos solo admiten hacer comparaciones simples (ej. "es igual a 1?", "es igual a 30?", nada complejo con >< && ||).
 		switch (nDia) { //ESTO SE LLAMA "SELECTOR"
 			case 1: //Indica que si "nDia" tiene como valor el número 1 entonces hace lo que hay abajo.
 				System.out.println("Dilluns");
