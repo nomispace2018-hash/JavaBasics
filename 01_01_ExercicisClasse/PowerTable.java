@@ -45,3 +45,48 @@ public class PowerTable {
 		System.out.println(resultat);
 	}
 }
+
+/* Otra forma de hacerlo
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        //Variables
+        int base = 0;
+        int maximo = 0;
+        long calcul = 0;
+        
+        //Pedimos base
+        System.out.println("Enter the base (2-100):");
+        base = scanner.nextInt();
+        
+        //Si el valor no es valido
+        while (base < 2 || base > 100) {
+           System.out.println("Enter the base (2-100):");
+            base = scanner.nextInt(); //Volvemos a pedir el valor
+        }
+        
+        //Pedimos el exponente
+        System.out.println("Enter maximum exponent (2-9):");
+        maximo = scanner.nextInt();
+        
+        //Si el valor no es valido
+        while (maximo < 2 || maximo > 9) {
+            System.out.println("Enter maximum exponent (2-9):");
+            maximo = scanner.nextInt(); //Lo volvemos a pedir
+        }
+        
+        for (int i = 1; i <= maximo; i++) {
+            calcul = (long)Math.pow(base, i);
+            
+            if (i != maximo) {
+                System.out.printf("%d^%d=%d, ", base, i, calcul);
+            } else {
+                System.out.printf("%d^%d=%d", base, i, calcul);
+            }
+        }
+    }
+} */
