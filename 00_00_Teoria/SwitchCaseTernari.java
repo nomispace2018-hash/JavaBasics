@@ -9,7 +9,7 @@ public class SwitchCaseTernari {
 		int nDia = scanner.nextInt();
 		scanner.nextLine();
 		
-		//Otra forma de utilizar un "if" es con un "switch".
+		//Otra forma de utilizar un "if" es con un "switch". Estos solo admiten hacer comparaciones simples (ej. "es igual a 1?", "es igual a 30?", nada complejo con >< && ||).
 		switch (nDia) { //ESTO SE LLAMA "SELECTOR"
 			case 1: //Indica que si "nDia" tiene como valor el número 1 entonces hace lo que hay abajo.
 				System.out.println("Dilluns");
@@ -95,6 +95,12 @@ public class SwitchCaseTernari {
 		//Podemos usar operadores "ternarios" también
 		String tipusDia = (nDia>=1 && nDia<=5)?
 			"laborable": "festiu"; //Si se cumple la condición de que el día está entre 1 y 5, es "laborable", si no, es "festivo".
+		System.out.println("Avui és: " + tipusDia);
+
+		//O hacerlo asi:
+		String tipusDia = (nDia>=1 && nDia<=5)?
+			"laborable": 
+			"festiu"; //Si se cumple la condición de que el día está entre 1 y 5, es "laborable", si no, es "festivo".
 		System.out.println("Avui és: " + tipusDia);
 		
 		/*Así se veria con una condición tipo "if else":

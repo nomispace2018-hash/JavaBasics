@@ -35,3 +35,37 @@ public class SquareTable {
 		System.out.println(resultat);
 	}
 }
+
+/* Otra forma de hacerlo (ACTUALIZADO)
+	import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        //Variables
+        int maxim = 0;
+        int quadrat = 0;
+        
+        //Pedimos numero
+        System.out.println("Enter maximum value (2-100):");
+        maxim = scanner.nextInt();
+        
+        //Si el valor no es valido
+        while (maxim < 2 || maxim > 100) {
+            System.out.println("Enter maximum value (2-100):");
+            maxim = scanner.nextInt(); //volvemos a pedirlo
+        }
+        
+        for (int i = 1; i <= maxim; i++) {
+            quadrat = i * i;
+            if (i != maxim) {
+                System.out.printf("%d^2=%d, ", i, quadrat);
+            } else {
+                System.out.printf("%d^2=%d", i, quadrat);
+            }
+            
+        }
+    }
+} */
