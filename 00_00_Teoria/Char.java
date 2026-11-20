@@ -23,8 +23,8 @@ public class CountLetter {
 			System.out.println("Text not entered");
 			continuar = false;
 		} else { //Si si introducen algo
-			//Pedimos letra a buscar
-			System.out.println("Enter letter: ");
+			//Pedimos letra a buscar                                     
+			System.out.println("Enter letter: ");                                                                                                                                  
 			lletra = scanner.next().charAt(0); //Con "charAt(0)" decimos que mire la posición 0, como es una letra, la posición 0 siempre sera la letra que se introduzca
 			
 			//Calculamos

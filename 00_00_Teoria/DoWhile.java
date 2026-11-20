@@ -7,7 +7,7 @@ public class DoWhile {
 		
 		
 		/* //EXEMPLE #1 DE "DO WHILE"
-		Lo que hace es indicar que se tiene que hacer mientras se cumpla una condición. Podria ser que un "while" nunca se ejecute (mira de cambiar el siguiente codigo como si fuer un WHILE), pero un "do while" se ejeucta siempre minimo 1 vez.
+		Lo que hace es indicar que se tiene que hacer mientras se cumpla una condición. Podria ser que un "while" nunca se ejecute (mira de cambiar el siguiente codigo como si fuer un WHILE), pero un "do while" se ejeucta siempre minimo 1 vez (OBLIGATORIO).
 		int x = 0;
 		do {
 			x ++
@@ -20,7 +20,7 @@ public class DoWhile {
 		int nSecret = Integer.parseInt(nSecretText);
 		int nIntents = 0;
 		
-		do {
+		do { 
 			//Llegir següent
 			System.out.println("Num? ");
 			int num = scanner.nextInt();
